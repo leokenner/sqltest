@@ -7,6 +7,7 @@ gem 'rails', '3.2.3'
 
 group :development, :test do
 gem 'mysql2'
+gem 'rspec-rails'
 end
 
 group :production do
