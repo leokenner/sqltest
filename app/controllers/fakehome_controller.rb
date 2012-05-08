@@ -1,0 +1,2 @@
+class FakehomeController < ApplicationController
+end
