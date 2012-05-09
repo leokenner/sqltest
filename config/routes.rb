@@ -2,12 +2,12 @@ Sqltest::Application.routes.draw do
   get "static_pages/home"
 
   get "static_pages/help"
+    
+    get "static_pages/about"
 
   resources :microposts
 
   resources :users
-
-  resources :tests
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -58,7 +58,7 @@ Sqltest::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'tests#index'
+   root :to => 'users#index'
 
   # See how all your routes lay out with "rake routes"
 
